@@ -1,5 +1,7 @@
-# ETL_Project_2
-Project 2 
+Kali & Erin: ETL_Project_2
+
+For this project we will use two separate datasets to analyze transporation statistics (Bureau of Transportation Statistics) alongside gasoline price data (Energy Information Administration). Both will be sourced from www.kaggle.com. We will have two tables within SQL.
+One table for gasoline prices and one for various transportation metrics such as sales, safety, traffic, construction spending and more. The tables will be linked together by dates.
 
 Guidelines for ETL Project
 This document contains guidelines, requirements, and suggestions for Project 1.
