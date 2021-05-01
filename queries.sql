@@ -1,8 +1,7 @@
--- Database: Transportation
-DROP TABLE transport_data;
+DROP TABLE transportation_statistics_aws;
 
-CREATE TABLE transport_data (
-	date_yyyyddmm DATE,
+CREATE TABLE transportation_statistics_aws (
+	date_yyyyddmm DATE primary key,
 	miles_traveled DECIMAL,
 	spending_bridge DECIMAL,
 	spending_pavement DECIMAL,
@@ -15,4 +14,4 @@ CREATE TABLE transport_data (
 );
 
 SELECT *
-FROM transport_data
+FROM transportation_statistics_aws
